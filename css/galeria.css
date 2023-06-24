@@ -1,0 +1,83 @@
+.general {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+
+    gap: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+
+}
+
+.img:hover {
+    filter: grayscale(50%);
+    cursor: pointer;
+    transition: filter .5s;
+}
+
+.generalImagenes {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform .4s ease-in;
+
+}
+
+.move{
+    transform: translateX(0);
+}
+
+.generalShow {
+    height: 80%;
+    display: block;
+    object-fit: cover;
+    transform: scale(0);
+transition: transform .2s .4s;
+}
+
+.show {
+    transform: scale(1);
+}
+
+.copy{
+    position: fixed;
+    color: white;
+    bottom: 40px;
+
+}
+
+.bx.bx-x {
+    position: absolute;
+    color: white;
+    right: 200px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .generalShow {
+        width: 90%;
+
+    
+    
+  }
+
+  .bx.bx-x {
+    top: 10px;
+    font-size: 25px;
+  }
+}

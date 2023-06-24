@@ -1,0 +1,110 @@
+
+.header {
+    background-color: transparent !important;
+    
+  }
+  .navbar  {
+    background-color: transparent !important;
+    height: 70px;
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+    display: flex;
+}
+    
+
+    
+  .navbar-nav li a {
+    color: #fff; 
+  }
+
+  .navbar-nav li a:hover {
+    background-color: white; 
+    color: black;
+  }
+    
+  .nav-item :hover{color: black;
+
+  }
+
+
+  .navbar-brand {
+    color: white
+ }
+
+ .dropdown-menu {
+    background-color: transparent;
+    font-size: 30px;
+  }
+  
+  .navbar-brand img {
+    max-width: 100px;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+  .instagram  {
+    text-decoration: none;
+    font-size: 60px;
+    width: 100px !important;
+    height: 100px !important;
+    line-height: 100px;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    }
+    
+
+  .instagram  :hover{
+    transform: scale(1.2);
+  }
+
+  .botonInstagram {
+    justify-content: right;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px ;
+    
+  }
+
+
+  .whatsapp  {
+    text-decoration: none;
+    font-size: 60px;
+    width: 100px !important;
+    height: 100px !important;
+    line-height: 100px;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    }
+    
+
+  .whatsapp  :hover{
+    transform: scale(1.2);
+  }
+
+  .botonWhatsapp {
+    justify-content: right;
+    text-align: right;
+    margin-right: 180px;
+    margin-top: 20px ;
+    
+  }
+  
+  .logoEstilo {
+   transition: all .4s ease-in-out;
+   
+
+  }
+
+  .logoEstilo :hover {
+    transform: scale(1.2);
+  }
